@@ -139,7 +139,7 @@ section.your-style h2{
 }
 
 section.your-style .bg-im1 {
-    background-image: url('/images/Rectangle11.svg');
+    background-image: url('../images/Rectangle11.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -156,7 +156,7 @@ section.your-style .bg-im1 {
 }
 
 section.your-style .bg-im2 {
-    background-image: url('/images/Rectangle12.svg');
+    background-image: url('../images/Rectangle12.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,7 +172,7 @@ section.your-style .bg-im2 {
 }
 
 section.your-style .bg-im3 {
-    background-image: url('/images/Rectangle13.svg');
+    background-image: url('../images/Rectangle13.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
