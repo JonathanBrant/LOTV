@@ -60,14 +60,16 @@ section.banner .carousel {
 
 section.banner .carousel .controls {
     position: absolute;
-    top: 45%;
+    top: 0;
     width: 100%;
+    height: 100%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
    
 }
+
 
 section.banner .carousel .controls .left {
     background-color: rgba(141, 141, 141, 0.62);
