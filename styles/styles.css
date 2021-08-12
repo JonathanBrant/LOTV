@@ -66,10 +66,8 @@ section.banner .carousel .controls {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center;   
 }
-
 
 section.banner .carousel .controls .left {
     background-color: rgba(141, 141, 141, 0.62);
@@ -78,7 +76,6 @@ section.banner .carousel .controls .left {
     height: 60px;
     border-radius: 50%;
     border: none;
-
 }
 
 section.banner .carousel .controls .right {
@@ -201,6 +198,49 @@ section.styles article h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+section.ctc {
+    margin-top: -20px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section form input {
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 0.5px rgba(196, 196, 196, 0.5);
+}
+
+section.ctc h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+section form textarea {
+    height: 100px;
+    width: 250px;
+    border-radius: 5px;
+    border: solid 0.5px rgba(196, 196, 196, 0.5);
+    resize: none;
+}
+
+section.ctc button {
+    color: #fff;
+    font-size: 27px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color: #dc9730;    
+    margin: 20px;
+    border: none;
 }
 
 footer {
