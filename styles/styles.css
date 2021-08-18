@@ -9,7 +9,7 @@ body {
     color: #555;
     margin: 0;
     padding: 0;
-    transition: background 0.2s linear;
+    transition: 0.5s;
 }
 
 .container {
@@ -42,12 +42,19 @@ header h2 {
     font-weight: 300;
 }
 
-header button.menu {
+header h2.menu {
     background: none;
     border: none;
     cursor: pointer;
     font-size: 32px;
     color: #aaa;
+}
+
+header div.dark-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 /* Section banner */
@@ -226,6 +233,7 @@ section form input {
     margin: 10px;
     border-radius: 5px;
     border: solid 0.5px rgba(196, 196, 196, 0.5);
+    border: solid 1px #EEE;
 }
 
 section.ctc h2 {
@@ -239,6 +247,7 @@ section form textarea {
     border-radius: 5px;
     border: solid 0.5px rgba(196, 196, 196, 0.5);
     resize: none;
+    border: solid 1px #EEE;
 }
 
 section.ctc button {
@@ -290,9 +299,17 @@ footer .redes-sociais img {
     margin: 5px;
 }
 
-.dark-mode {
+/* Dark Theme */
+
+.dark-mode,
+.dark-mode h1,
+.dark-mode header h2,
+.dark-mode section .container h2,
+.dark-mode section.destaques article ,
+.dark-mode section form input,
+.dark-mode section form textarea
+ {
     background-color: #333;
-    color: white !important;
-  }
-
-
+    color: white;
+    transition: 0.5s;
+}

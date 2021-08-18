@@ -1,11 +1,12 @@
 function darkMode() {
-    var body = document.body;
-    var banner1 = document.querySelector('section.destaques .info');
-    var banner2 = document.querySelector('section.destaques .info2');
-
+    let body = document.querySelector("body");
     body.classList.toggle("dark-mode");
-    banner1.classList.toggle("dark-mode");
-    banner2.classList.toggle("dark-mode");
-    
-  }
+};
+ 
+// let btnToggleTheme = document.querySelector('.toggleTheme');
 
+// let body = document.querySelector('body');
+
+// btgToggleTheme.onClick = (event) => {
+//   body.classList.toggle('dark-mode')
+// }
